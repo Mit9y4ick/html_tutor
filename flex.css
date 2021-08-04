@@ -1,7 +1,9 @@
 .scroll{
     overflow-x: scroll;
     display: flex;
-    padding: 6rem;
+    padding-bottom: 6rem;
+    
+    
 }
 
 .scroll>div{
@@ -11,6 +13,7 @@
     display: inline-block;
     height: 100px;
     border: 1px solid;
+    
 }
 
 .horizon{
@@ -89,68 +92,36 @@
 	margin-bottom: 5rem;
 }
 
-
 .vertical{
     display:flex;
     flex-direction:column;
-    height: 300px;
-    padding-bottom: 6rem;
-    
+    height: 500px;
 }
 
-.v_item1{
-    height: 100px;
-    flex-grow: 1;
-    background-color:#f1f1f1;
+.block__element_1{
     margin: 10px;
-    text-align: center;
-    line-height: 65px;
-    font-size: 30px;
-    border: 1px solid;
-}
-
-.v_item2{
-    height: 100px;
-    flex-grow: 1;
-    background-color:#f1f1f1;
-    margin: 10px;
-    text-align: center;
-    line-height: 65px;
-    font-size: 30px;
-    border: 1px solid;
-    margin-bottom: 3rem;
-}
-.v_item3{
-    flex-grow: 1;
-    height: 100px;
-    flex-grow: 1;
-    background-color:#f1f1f1;
-    margin: 10px;
-    text-align: center;
-    line-height: 65px;
-    font-size: 30px;
-    border: 1px solid;
 
 }
 
-.v_item4{
-    height: 100px;
-    flex-grow: 1;
-    background-color:#f1f1f1;
+.block__element_2{
     margin: 10px;
-    text-align: center;
-    line-height: 65px;
-    font-size: 30px;
-    border: 1px solid;
+    border: 1px ;
+    flex: 1 1 auto;
 }
 
-.v_item5{
-    height: 100px;
-    flex-grow: 1;
-    background-color:#f1f1f1;
+.block__element_3{
     margin: 10px;
-    text-align: center;
-    line-height: 65px;
-    font-size: 30px;
-    border: 1px solid;
+}
+
+.block__element_4{
+    margin: 10px;
+}
+
+.block__element_5{
+    margin: 10px;
+}
+
+.block__content{
+    height: 50px;
+    background-color: #c5c2c2;
 }
